@@ -1,77 +1,71 @@
-/* Reset some default styling */
+/* Global styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background: #f5f6fa;
-    color: #2c3e50;
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    color: #34495e;
-  }
-  
-  header p {
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #2980b9;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  h2 {
-    margin-bottom: 0.5rem;
-    color: #2c3e50;
-  }
-  
-  ul {
-    list-style-type: square;
-    margin-left: 1.5rem;
-  }
-  
-  a {
-    color: #3498db;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid #ddd;
-    color: #777;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  line-height: 1.6;
+  background-color: #1a2238; /* matte navy */
+  color: #f1c40f; /* gold highlights */
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #f1c40f;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #dcdcdc;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #f1c40f;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ffd700;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #555;
+  background-color: #141a2b; /* darker navy */
+  color: #bbb;
+  padding: 20px;
+}
