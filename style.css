@@ -30,7 +30,7 @@ header {
 
 header h1 {
   font-size: 1.8rem;
-  color: #00adb5;
+  color: #87CEEB;
 }
 
 nav a {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #00adb5;
+  color: #87CEEB;
 }
 
 .hero {
@@ -69,7 +69,7 @@ nav a:hover {
 
 .btn {
   padding: 12px 28px;
-  border: 2px solid #00adb5;
+  border: 2px solid #87CEEB;
   background: transparent;
   color: #00adb5;
   font-weight: bold;
@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: #00adb5;
+  background: #87CEEB;
   color: #0e0e0e;
 }
 
@@ -92,7 +92,7 @@ section {
 section h3 {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #00adb5;
+  color: #87CEEB;
   text-align: center;
 }
 
@@ -142,5 +142,40 @@ footer {
 }
 
 .accent {
-  color: #00adb5;
+  color: #87CEEB;
 }
+
+/* Skills Section */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.skills-category h4 {
+  color: #00adb5;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.skills-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-category li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.skills-category .icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+  
