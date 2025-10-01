@@ -71,7 +71,7 @@ nav a:hover {
   padding: 12px 28px;
   border: 2px solid #87CEEB;
   background: transparent;
-  color: #00adb5;
+  color: #87CEEB;
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
@@ -157,7 +157,7 @@ footer {
 }
 
 .skills-category h4 {
-  color: #00adb5;
+  color: #87CEEB;
   margin-bottom: 20px;
   font-size: 1.4rem;
 }
