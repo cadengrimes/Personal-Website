@@ -3,41 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caden Grimes | Home</title>
+  <title>Portfolio | Your Name</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap" rel="stylesheet">
-  <script defer src="script.js"></script>
 </head>
 <body>
-  <!-- Header / Navigation -->
   <header>
-    <h1>Caden Grimes</h1>
-    <p>Computer Science Graduate | Developer</p>
+    <h1>Your Name</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>This is my portfolio site. Feel free to explore!</p>
-    </section>
+  <div class="hero">
+    <h2>Hello, I'm <span class="accent">Your Name</span></h2>
+    <p>A passionate developer creating sleek and efficient solutions. This is my professional portfolio where I showcase my skills, projects, and experience.</p>
+    <button class="btn">View My Work</button>
+  </div>
 
-    <section>
-      <h2>Global Clock</h2>
-      <p>The current time is:</p>
-      <div id="clock"></div>
-    </section>
-  </main>
+  <section id="about">
+    <h3>About Me</h3>
+    <p>
+      I'm a developer with a focus on building modern, responsive, and professional websites and applications. My expertise includes front-end design, back-end development, and creating polished user experiences.
+    </p>
+  </section>
 
-  <!-- Footer -->
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="projects">
+      <div class="project-card">
+        <h4>Project One</h4>
+        <p>Brief description of what the project does, the tools you used, and why it stands out.</p>
+      </div>
+      <div class="project-card">
+        <h4>Project Two</h4>
+        <p>Brief description of what the project does, the tools you used, and why it stands out.</p>
+      </div>
+      <div class="project-card">
+        <h4>Project Three</h4>
+        <p>Brief description of what the project does, the tools you used, and why it stands out.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>Email me at: 
+      <a href="mailto:your.email@example.com" class="accent">
+        your.email@example.com
+      </a>
+    </p>
+  </section>
+
   <footer>
-    <p>© 2025 Caden Grimes</p>
+    © 2025 Your Name — All Rights Reserved
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
